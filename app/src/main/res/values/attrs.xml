@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StrongerBar">
+        <attr name="colorGradient" format="reference" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="thumbHeight" format="dimension" />
+        <attr name="showAlphaBar" format="boolean" />
+        <attr name="alphaBarPosition" format="integer" />
+        <attr name="currentPosition" format="integer" />
+        <attr name="bgColor" format="color"/>
+        <attr name="barMargin" format="dimension"/>
+        <attr name="maxPosition" format="integer"/>
+        <attr name="isVertical" format="boolean"/>
+        <attr name="offset" format="boolean"/>
+        <attr name="offsetNoPadding" format="boolean"/>
+        <attr name="secondColor" format="reference"/>
+        <attr name="textFacePath" format="string"/>
+        <attr name="frameColor" format="color"/>
+        <attr name="frameWidth" format="integer"/>
+        <attr name="bubbleMargin" format="integer"/>
+        <attr name="bubbleTextSize" format="integer"/>
+        <attr name="isShowBubble" format="boolean"/>
+        <attr name="ColorChangeCallBack" format="boolean"/>
+        <attr name="adjustName" format="string"/>
+        <attr name="adjustNameMargin" format="integer"/>
+        <attr name="adjustNameSize" format="integer"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="StrongerBarOrientation">
+        <attr name="rotation" format="enum">
+            <enum name="left" value="0"></enum>
+            <enum name="right" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

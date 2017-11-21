@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="material_colors">
+        <item>#BABCBE</item>
+        <item>#BABCBE</item>
+
+    </array>
+    <array name="multi_color">
+        <item>#FF000000</item>
+        <item>#FF9900FF</item>
+        <item>#FF0000FF</item>
+        <item>#FF00FF00</item>
+        <item>#FF00FFFF</item>
+        <item>#FFFF0000</item>
+        <item>#FFFF00FF</item>
+        <item>#FFFF6600</item>
+        <item>#FFFFFF00</item>
+        <item>#FF000000</item>
+    </array>
+</resources>

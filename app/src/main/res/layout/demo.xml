@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:clipChildren="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <aaaaaaaa.example.com.strongerbar.StrongerBar
+            android:id="@+id/stronger_left"
+            android:layout_width="68dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="300dp"
+            app:thumbHeight="73dp"
+            app:barHeight="8dp"
+            app:offset="true"
+            app:frameColor="@color/colorAccent"
+            app:offsetNoPadding="false"
+            app:isVertical="true"
+            app:showAlphaBar="false"
+            app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+            app:bubbleTextSize="24"
+            app:bubbleMargin="15"
+            app:rotation="left"
+            app:ColorChangeCallBack="true"
+            app:isShowBubble="true"
+            app:colorGradient="@array/multi_color" />
+        <Button
+            android:id="@+id/btView"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="53dp"
+            android:text="DOLOR"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <aaaaaaaa.example.com.strongerbar.StrongerBar
+            android:layout_width="68dp"
+            android:id="@+id/Stronger_1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="300dp"
+            app:thumbHeight="73dp"
+            app:barHeight="8dp"
+            app:offset="false"
+            app:frameColor="@color/colorAccent"
+            app:offsetNoPadding="true"
+            app:isVertical="true"
+            app:showAlphaBar="false"
+            app:secondColor="@color/colorPrimaryDark"
+            app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+            app:bubbleTextSize="24"
+            app:bubbleMargin="15"
+            app:rotation="left"
+            app:ColorChangeCallBack="true"
+            app:isShowBubble="true"
+            app:colorGradient="@array/material_colors" />
+        <aaaaaaaa.example.com.strongerbar.StrongerBar
+            android:layout_marginTop="20dp"
+            android:layout_width="68dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_height="300dp"
+            android:id="@+id/stronger_right"
+            app:thumbHeight="53dp"
+            app:barHeight="8dp"
+            app:offset="true"
+            app:offsetNoPadding="false"
+            app:isVertical="true"
+
+            android:layout_marginLeft="80dp"
+            app:showAlphaBar="false"
+            app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+            app:frameColor="#ff0000"
+            app:bubbleTextSize="24"
+            app:rotation="right"
+            app:bubbleMargin="15"
+            app:isShowBubble="true"
+            app:colorGradient="@array/material_colors" />
+    </LinearLayout>
+
+
+    <aaaaaaaa.example.com.strongerbar.StrongerBar
+        android:layout_width="wrap_content"
+        android:id="@+id/Stronger_2"
+        android:layout_alignParentBottom="true"
+        android:layout_height="68dp"
+        app:thumbHeight="63dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        app:frameWidth="1"
+        app:adjustName="@string/app_name"
+        app:barHeight="12dp"
+        app:frameColor="@color/colorAccent"
+        app:offset="true"
+        app:offsetNoPadding="true"
+        app:isShowBubble="true"
+        app:bubbleTextSize="18"
+        app:adjustNameSize="14"
+        app:bubbleMargin="10"
+        app:adjustNameMargin="5"
+        app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+        app:isVertical="false"
+        app:colorGradient="@array/multi_color"
+        app:showAlphaBar="false"
+        />
+
+
+    <aaaaaaaa.example.com.strongerbar.StrongerBar
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="68dp"
+        app:thumbHeight="63dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        app:frameWidth="1"
+        android:id="@+id/Stronger_3"
+        app:barHeight="12dp"
+        app:frameColor="@color/colorAccent"
+        app:offset="false"
+        app:offsetNoPadding="true"
+        app:isShowBubble="false"
+        app:bubbleTextSize="18"
+        app:secondColor="@color/colorAccent"
+        app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+        app:isVertical="false"
+        app:colorGradient="@array/material_colors"
+        app:showAlphaBar="false"
+        />
+
+
+    <aaaaaaaa.example.com.strongerbar.StrongerBar
+        android:id="@+id/colorSlider"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="68dp"
+        app:thumbHeight="63dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        app:frameWidth="1"
+        app:barHeight="12dp"
+        app:frameColor="@color/colorAccent"
+        app:offset="false"
+        app:offsetNoPadding="false"
+        app:isShowBubble="true"
+        app:bubbleTextSize="18"
+        app:bubbleMargin="10"
+        app:textFacePath="fonts/BasicCommercialW01Bold.ttf"
+        app:isVertical="false"
+        app:colorGradient="@array/material_colors"
+        app:showAlphaBar="false"
+        />
+
+</LinearLayout>
