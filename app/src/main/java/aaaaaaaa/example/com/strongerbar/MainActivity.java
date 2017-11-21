@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements StrongerBar.OnSta
     public Bitmap onDisableState(int currentPosition, int maxProgress,int width) {
         Drawable bitmapDrawable =  getResources().getDrawable(R.drawable.disable);
         Bitmap bitmap = SeekBarThumbUtils.drawableToBitmap(width, bitmapDrawable);
-
+        viewById1.setBackground(bitmapDrawable);
         return  bitmap;
     }
 }
