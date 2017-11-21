@@ -247,6 +247,7 @@ public class StrongerBar extends View {
 
         }else {
             mColorRect = new Rect(realLeft , realTop , realRight ,realTop + mBarHeight );
+            mColorStroke = new Rect(realLeft+mFrameWidth/2, realTop-mFrameWidth/2, realRight-mFrameWidth/2, realTop + mBarHeight+mFrameWidth/2);
         }
         mColorGradient = new LinearGradient(0, 0, mColorRect.width(), 0, mColorSeeds, null, Shader.TileMode.MIRROR);
         mColorRectPaint = new Paint();
@@ -306,11 +307,14 @@ public class StrongerBar extends View {
         float thumbY = mColorRect.top + mColorRect.height() / 2;
         if(!TextUtils.isEmpty(mAdjustName)){
             TextPaint textPaint = new TextPaint();
-            Typeface typeFace = Typeface.createFromAsset(mContext.getAssets(), mTextFacePath);
+            if(mTextFacePath!=null) {
+                Typeface typeFace = Typeface.createFromAsset(mContext.getAssets(), mTextFacePath);
+                if (typeFace != null) {
+                    textPaint.setTypeface(typeFace);
+                }
+            }
             textPaint.setAntiAlias(true);
-            textPaint.setTypeface(typeFace);
             if(!isEnabled()){textPaint.setColor(Color.GRAY);}
-
             textPaint.setTextSize(mAdjustNameSize);
             StaticLayout sl= new StaticLayout(mAdjustName, textPaint, mTransparentBitmap.getWidth()-8, Layout.Alignment.ALIGN_NORMAL, 1.0f, 0.0f, false);
             canvas.save();
