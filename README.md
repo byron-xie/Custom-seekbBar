@@ -1,6 +1,6 @@
 # StrongerSeekbBar
 非添加windowmanager实现漂浮框，因为在项目中用到过 层级太高覆盖不了，处理麻烦 
-后来自定义了一个strongerbar来完成需求。支持颜色渐变，支持单色，支持二进度等。。
+后来自定义了一个strongerbar来完成需求。支持帧动画！！支持颜色渐变，支持单色，支持二进度等。。
 ![image](https://github.com/byron-xie/StrongerSeekbBar/blob/master/app/src/main/res/drawable/ezgif-4-eb8d7d5ab1.gif?raw=true)
 ==
 向外暴露的接口：onStateChangeListener();
